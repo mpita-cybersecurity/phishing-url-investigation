@@ -92,3 +92,40 @@ considered safe.
 The investigation provided practical experience in DNS
 lookup, URL analysis, IOC identification, and threat
 assessment using Windows and VirusTotal.
+
+
+----------------------------------------
+SIMULATED PHISHING CASE
+----------------------------------------
+
+URL UNDER INVESTIGATION:
+
+http://secure-capitec-verification.example/login
+
+PHISHING INDICATORS IDENTIFIED:
+
+1. HTTP was used instead of HTTPS.
+2. The URL contains suspicious keywords such as "secure",
+   "verification", and "login".
+3. The domain uses a brand name in a suspicious context.
+4. The URL requests the user to access a login page.
+5. The scenario uses urgency and a threat of account suspension.
+6. The domain is not an official banking domain.
+
+TECHNICAL ANALYSIS:
+
+PowerShell was used to parse the URL and identify its scheme,
+host and path. A PowerShell-based indicator check was also
+performed to identify suspicious keywords and URL characteristics.
+
+RISK LEVEL:
+
+High
+
+CONCLUSION:
+
+The simulated URL demonstrates several characteristics commonly
+associated with phishing attacks, including brand impersonation,
+urgency, suspicious URL construction and a request to access a
+login page. The URL was analysed without visiting the simulated
+website.

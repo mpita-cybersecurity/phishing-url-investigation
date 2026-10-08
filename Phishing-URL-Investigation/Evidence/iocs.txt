@@ -1,0 +1,38 @@
+INDICATORS OF COMPROMISE (IOC)
+
+Project: Phishing URL Detection & Investigation
+Analyst: Mamello Pita
+Date: 8 October 2026
+
+SIMULATED CASE
+
+Suspicious URL:
+http://secure-capitec-verification.example/login
+
+Domain:
+secure-capitec-verification.example
+
+Protocol:
+HTTP
+
+Path:
+/login
+
+Suspicious Keywords:
+secure
+verification
+login
+
+IP Address:
+Not resolved - fictional .example domain
+
+Threat Classification:
+Phishing / Brand Impersonation
+
+Risk Level:
+High
+
+Notes:
+The URL is a fictional training example created for
+cybersecurity education. It was not accessed or used
+for authentication.

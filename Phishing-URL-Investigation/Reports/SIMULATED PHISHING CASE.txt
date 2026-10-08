@@ -1,0 +1,38 @@
+SIMULATED PHISHING CASE
+
+Scenario:
+
+A customer receives an email claiming that their online banking
+account will be suspended unless they verify their account
+immediately.
+
+The email contains the following URL:
+
+http://secure-capitec-verification.example/login
+
+This URL is a fictional training example and does not represent
+a real Capitec website.
+
+Initial Investigation:
+
+Protocol: HTTP
+Domain: secure-capitec-verification.example
+Path: /login
+
+Potential Warning Signs:
+
+1. The message creates urgency by threatening account suspension.
+2. The URL contains the brand name in a suspicious context.
+3. The URL uses HTTP rather than HTTPS.
+4. The URL contains a login page.
+5. The domain is not an official banking domain.
+
+Risk Assessment:
+
+Risk Level: High
+
+Reason:
+
+The combination of urgency, brand impersonation, an account
+verification request, and a suspicious domain are strong
+indicators of a potential phishing attempt.
