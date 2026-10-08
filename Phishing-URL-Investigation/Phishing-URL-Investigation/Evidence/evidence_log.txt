@@ -1,0 +1,26 @@
+PHISHING URL INVESTIGATION
+EVIDENCE LOG
+
+Analyst: Mamello Pita
+Date: 8 October 2026
+
+EVIDENCE 01
+Description: DNS lookup performed using Windows PowerShell.
+Command: nslookup example.com
+Purpose: Identify the IP address associated with the domain.
+
+EVIDENCE 02
+Description: URL analysis performed using a web browser.
+URL: https://example.com
+Purpose: Identify basic URL characteristics and potential
+phishing indicators.
+
+EVIDENCE 03
+Description: URL checked using VirusTotal.
+Purpose: Compare the URL against multiple security vendors
+and identify potential malicious activity.
+
+EVIDENCE 04
+Description: Screenshot of VirusTotal analysis.
+File: virustotal_example_com.png
+Location: Screenshots folder.

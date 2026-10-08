@@ -1,0 +1,94 @@
+PHISHING URL INVESTIGATION REPORT
+
+Project: Phishing URL Detection & Investigation
+Analyst: Mamello Pita
+Date: 8 October 2026
+
+1. OBJECTIVE
+
+The objective of this investigation is to identify characteristics
+commonly associated with phishing URLs and assess the potential
+security risk of a suspicious URL.
+
+2. INVESTIGATION DETAILS
+
+Investigation Type:
+Phishing URL Analysis
+
+Operating System:
+Windows
+
+Tools Used:
+- Web Browser
+- Windows PowerShell
+- VirusTotal
+
+3. URL UNDER INVESTIGATION
+
+URL:
+
+4. INITIAL OBSERVATIONS
+
+Domain:example.com
+
+URL Length:[count the characters in https://example.com]
+
+HTTPS Present:Yes
+
+Suspicious Keywords:None
+
+Suspicious Characters:None
+
+Redirects: None observed
+
+
+5. INDICATORS OF COMPROMISE (IOCs)
+
+
+Suspicious URL: None identified
+
+Domain: example.com
+
+IP Address: [your nslookup IP address]
+
+Other Indicators: None identified
+
+Suspicious URL:
+
+Domain:
+
+IP Address:
+
+Other Indicators:
+
+6. RISK ASSESSMENT
+
+Risk Level: Low
+
+Reason: The URL uses HTTPS, the domain does not contain
+obvious phishing indicators, and the VirusTotal analysis
+did not identify the URL as malicious.
+
+
+Reason:
+
+7. FINDINGS
+
+The investigation of example.com did not identify obvious
+indicators of phishing or malicious activity. DNS resolution
+successfully identified the domain's associated IP address.
+The URL uses HTTPS and no suspicious keywords or characters
+were observed during the initial analysis.
+
+8. RECOMMENDATIONS
+
+Users should still verify the domain name before entering
+credentials or personal information. Suspicious URLs should
+be analysed using multiple security tools before being
+considered safe.
+
+9. CONCLUSION
+
+The investigation provided practical experience in DNS
+lookup, URL analysis, IOC identification, and threat
+assessment using Windows and VirusTotal.
